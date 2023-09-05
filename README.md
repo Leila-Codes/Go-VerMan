@@ -7,24 +7,26 @@ A simple command-line utility for quick installation and switching of Golang ver
 | Windows 10/11    | Powershell   |
 
 ## Available Commands
-*List*
+#### `Go-VerMan kist`
 Lists all installed versions of Golang
-`Go-VerMan list`
 
-*Install*
+---
+#### `Go-VerMan install <version>`
 Downloads and installs a new version of Golang from the official Google website.
-`Go-VerMan install <version>`
-Examples:
+
+Example:
 `Go-VerMan install go1.21.0`
 
-*Uninstall*
+---
+#### `Go-VerMan uninstall <version>`
 Deletes the specified version from the installation directory.
-`Go-VerMan uninstall <version>`
-Examples:
+
+Example:
 `Go-VerMan uninstall go1.21.0`
 
-*Use*
+---
+#### `Go-VerMan use <version>`
 Switch the currently active version, available for use within the system path.
-`Go-VerMan use <version>`
+
 Example:
 `Go-VerMan use go1.21.0`
