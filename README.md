@@ -7,7 +7,7 @@ A simple command-line utility for quick installation and switching of Golang ver
 | Windows 10/11    | Powershell   |
 
 ## Available Commands
-#### `Go-VerMan kist`
+#### `Go-VerMan list`
 Lists all installed versions of Golang
 
 ---
